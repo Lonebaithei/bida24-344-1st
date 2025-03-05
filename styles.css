@@ -1,139 +1,95 @@
-body {
+/* styles.css */
 
+/* General Styles */
+body {
     font-family: Arial, sans-serif;
-    
-    color: #333;
-    
-    background-color: #f9f9f9;
-    
-    margin: 0;
-    
-    padding: 0;
-    
     line-height: 1.6;
-    
-    }
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
 
 header {
-
-    background-color: #509653;
-        
-    color: white;
-        
+    background-color: #333;
+    color: #fff;
     padding: 20px;
-        
     text-align: center;
-        
-    }
-        
-        
-    header h1 {
-        
+}
+
+header h1 {
     margin: 0;
-        
-    }
-        
-        
-    nav a {
-        
-    color: white;
-        
-    text-decoration: bisque;
-        
+    font-size: 2.5rem;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
     margin: 0 10px;
-        
-    }
-        
-        
-    nav a:hover {
-        
+}
+
+nav a:hover {
     text-decoration: underline;
-        
-    }
+}
 
 main {
-
     padding: 20px;
-        
-    max-width: 800px;
-        
+    max-width: 1200px;
     margin: 0 auto;
-        
-    }
-        
-        
-    main img {
-        
-    max-width: 100%;
-        
-    height: auto;
-        
-    display: block;
-        
-    margin: 20px 0;
-        
-    }
+}
 
 footer {
-
     background-color: #333;
-        
-    color: white;
-        
+    color: #fff;
     text-align: center;
-        
     padding: 10px;
-        
-    position: fixed;
-        
-    bottom: 0;
-        
-    width: 100%;
-        
-    }
+    margin-top: 20px;
+}
 
-p {
-
-    font-size: 1.1em;
-        
-    }
-        
-        
-a {
-        
-    color: #000000;
-        
-    text-decoration: none;
-        
-    }
-    
-        
-    a:hover {
-        
-    text-decoration: underline;
-        
-    }
-
-img {
-
-    border: 2px solid #b8f1b9;
-        
-    border-radius: 30px;
-        
-    }
+/* Ranch List Styles */
+.ranch-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adds space between each ranch container */
+}
 
 .ranch-container {
-        display: flex;
-        align-items: center;
-        margin-bottom: 20px;
-        border: 1px solid #ddd;
-        padding: 10px;
-        border-radius: 8px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-main a[href^="mailto:"] {
+.ranch-container img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
 
-    color: #ff5722;
-        
-    font-weight: bold;
-        
+.ranch-description {
+    flex: 1;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .ranch-container {
+        flex-direction: column;
+        text-align: center;
     }
+
+    .ranch-container img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}

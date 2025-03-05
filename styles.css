@@ -16,7 +16,7 @@ body {
 
 header {
 
-    background-color: #4CAF50;
+    background-color: #509653;
         
     color: white;
         
@@ -121,6 +121,14 @@ img {
     border-radius: 30px;
         
     }
+
+.ranch-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 8px;
 
 main a[href^="mailto:"] {
 

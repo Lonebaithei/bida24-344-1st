@@ -11,6 +11,7 @@ body {
 }
 
 header {
+    background-image: url(images/img5.jpg);
     background-color: #333;
     color: #fff;
     padding: 20px;

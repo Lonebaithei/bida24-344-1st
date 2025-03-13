@@ -8,7 +8,7 @@ body {
     
     margin: 0;
     
-    padding: 0;
+    padding: 30%;
     
     line-height: 1.6;
     
@@ -20,7 +20,7 @@ header {
     
     color: white;
         
-    padding: 20px;
+    padding: 30%;
         
     text-align: center;
         
@@ -63,7 +63,7 @@ main img {
             
     max-width: 100%;
             
-    height: auto;
+    height: 100%;
             
     display: block;
             
@@ -73,13 +73,13 @@ main img {
 
 footer {
 
-    background-color: #333;
+    background-image: url(images/img5.jpg);
                 
     color: white;
                 
     text-align: center;
                 
-    padding: 10px;
+    padding-right: 50px;
                 
     position: fixed;
                 
@@ -111,8 +111,6 @@ a:hover {
 
 img {
 
-    border: 5px solid #4CAF50;
+    border: 2px solid #ffffff;
                         
-    border-radius: 10p
-
-    
+    border-radius: 10p;

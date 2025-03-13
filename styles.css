@@ -65,7 +65,7 @@ main img {
             
     height: 10%;
             
-    display: none;
+    display: ruby-base;
             
     margin: 20px 0;
             
@@ -73,13 +73,13 @@ main img {
 
 footer {
 
-    background-image: url(images/img5.jpg);
+    background-color: #e6ddaa;
                 
     color: white;
                 
     text-align: center;
                 
-    padding-right: 50px;
+    padding: 50px;
                 
     position: fixed;
                 

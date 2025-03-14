@@ -41,6 +41,8 @@ nav a {
     text-decoration: none;
         
     margin: 0 10px;
+
+    border: #ff5722;
         
     }
         
@@ -122,7 +124,7 @@ img {
     border-radius: 10px;
 
     width: 200px;
-    
+
     height: auto;
         
     }

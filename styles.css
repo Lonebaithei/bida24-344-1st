@@ -112,3 +112,18 @@ img {
     border: 2px solid #ffffff;
                         
     border-radius: 10px;
+
+
+.container {
+        width: 92%;
+        margin: auto;
+        height: 100%;
+        border: 2px solid red;
+    }
+
+    .image-container {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }

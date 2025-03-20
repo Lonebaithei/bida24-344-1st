@@ -1,3 +1,82 @@
+/*HEADER STYLES*/
+.header {
+    background: linear-gradient(135deg, #0a1a2f 0%, #1a1a3a 100%); /* Deep space gradient */
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 1;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 15px rgba(0, 247, 255, 0.4);
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  
+  .header img {
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Enhanced Image Grid */
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  
+  .image-container div {
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container div:hover {
+    transform: translateY(-5px);
+  }
+  
+  .image-container img {
+    height: 250px;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Modernize Cards */
+  .card {
+    border: none !important;
+    background: linear-gradient(145deg, #ffffff, #f8f9fa) !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  /* Updated Image Container Styling */
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin:;
+
+  }
+
+  /* MAIN STYLES */
+.main {
+    background-image: url(images/img12.webp);
+  }
+
+
 /* NAVIGATION STYLES */
 .nav-container {
     background: linear-gradient(135deg, #0a1a2f 0%, #1a1a3a 100%); /* Deep space gradient */
@@ -164,18 +243,4 @@
   .image-container img {
       height: 200px; /* Smaller height on mobile */
   }
-}
-
-/* Add a gradient border to images */
-.image-container img {
-  border: 4px solid transparent;
-  background: linear-gradient(45deg, #2d4059, #ea5455) border-box;
-  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-}
-
-/* Add a subtle shadow to text */
-.ranch-description {
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
